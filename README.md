@@ -223,7 +223,7 @@ pip install boto3
 Step 2: Create a Collection
 
 ```
-ansible-galaxy collection init my_aws_collection
+ansible-galaxy collection install amazon.aws
 ```
 
 This generates a folder structure similar to roles but designed for third-party integrations.
